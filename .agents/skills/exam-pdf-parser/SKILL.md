@@ -237,4 +237,8 @@ flowchart TD
 - [ ] Option letters `(a)`, `(b)`, `(c)`, `(d)`, `(A)`, `(B)`, `(அ)`, `(ஆ)` are completely stripped.
 - [ ] Scientific names are in italics (`*Genus species*`).
 - [ ] Question header is `## ` and explanation header is `#### `.
+<<<<<<< HEAD
 - [ ] English and Tamil files have identical `<n>` number and identical frontmatter tags.
+=======
+- [ ] English and Tamil files have identical `<n>` number and identical frontmatter tags.
+>>>>>>> 21955a50012a90ea1685b6067108ce0ccb2882f8
