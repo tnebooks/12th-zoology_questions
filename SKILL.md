@@ -15,6 +15,11 @@ Question text
 - Option
 - Option
 
+Question text with a diagram
+![Diagram](image-1.png)
+- Option
+- Option
+
 Question text without options
 
 ## 2 Mark
@@ -49,10 +54,18 @@ Question text
 4. **Either/or questions:** split them into separate questions so that every question is kept.
 5. **Multi-part questions** (e.g. (i), (ii), (iii) under one question): merge them into one question, joined in order as a single paragraph with no labels.
 6. **Options that refer to other options** (e.g. "Both (b) and (c)"): keep them verbatim, and list them under "Notes" after the outputs.
-7. **Tamil and English must align:** both outputs must contain the same number of questions in the same order, so they can be matched by index.
-8. Do not skip any question. If a character is unclear, keep your best reading and list it under "Notes". Do not silently guess.
+7. **Images** (diagrams, figures, tables shown as pictures, or options that are pictures):
+   - Do not describe or redraw them. Replace each one with a Markdown image placeholder at the exact position where it appears: `![Diagram](image-N.png)`.
+   - Number the placeholders sequentially across the whole paper (`image-1.png`, `image-2.png`, ...) in the order they appear. Use lowercase letters, digits and hyphens only.
+   - If an option is an image, write it as `- ![Option](image-N.png)`.
+   - Use the same placeholder names in the English and Tamil outputs for the same image.
+   - Keep any caption or label text that is printed with the image as normal text.
+   - If a question only asks the student to draw something and no image is printed, do not add a placeholder.
+8. **Tamil and English must align:** both outputs must contain the same number of questions in the same order, so they can be matched by index.
+9. Do not skip any question. If a character is unclear, keep your best reading and list it under "Notes". Do not silently guess.
 
 ## After the two code blocks, add a short "Notes" section with:
 - Question count per mark section, for English and Tamil.
+- The list of image placeholders, with the question each belongs to.
 - Any option text that references other options.
 - Any characters or words you were unsure about.
